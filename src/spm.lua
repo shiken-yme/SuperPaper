@@ -41,7 +41,7 @@ SMODS.ConsumableType {
 }
 
 -- load components
-local subdirs = {"jokers", "decks", "items"}
+local subdirs = {"jokers", "decks", "items", "seals"}
 for y, subdir in ipairs(subdirs) do
     local folder = NFS.getDirectoryItems(SMODS.current_mod.path .. subdir)
     for _, filename in pairs(folder) do
